@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+<body>
+ <input type="number" id="fnumber" value="3">
+  <br>
+
+</form> 
+
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+var response;
+var x  ;
+ x = parseFloat(document.getElementById("fnumber").value);
+if ( x < 60) {
+    document.getElementById("demo").innerHTML= "keep going";
+  }
+   else if( x <100)  {
+    document.getElementById("demo").innerHTML =  "Excellent job";}
+}
+
+
+   
+
+   
+
+</script>
+
+<button onclick="myFunction()">output</button>
+
+
+<output id ="demo"></output>
+
+</body>
+</html>
+
