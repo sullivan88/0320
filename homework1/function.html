@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+ <meta charset="utf-8">
+
+<body>
+ <input type="number" id="fnumber" value="3">
+  <input type="number" id="lnumber" value="5">
+  <br>
+
+</form> 
+
+
+
+
+<script>
+function myFunction1() {
+var x,y
+x = parseFloat(document.getElementById("fnumber").value);
+y = parseFloat(document.getElementById("lnumber").value);
+document.getElementById("demo").innerHTML = x + y;
+}
+</script>
+
+<button onclick="myFunction1()">加</button>
+<h5>計算結果：</h5>
+<output id ="demo"></output>
+<br>
+
+</body>
+<body>
+   <input type="number" id="number1" value="3">
+  <input type="number" id="number2" value="5">
+  <br>
+
+</form> 
+
+
+
+
+<script>
+function myFunction() {
+var x,y
+x = parseFloat(document.getElementById("number1").value);
+y = parseFloat(document.getElementById("number2").value);
+document.getElementById("dem").innerHTML = x - y;
+}
+</script>
+
+<button onclick="myFunction()">減</button>
+<h5>計算結果：</h5>
+<output id ="dem"></output>
+</body>
+<br>
+
+<body>
+   <input type="number" id="number3" value="3">
+  <input type="number" id="number4" value="5">
+  <br>
+
+</form> 
+
+
+
+
+<script>
+function myFunction2() {
+var x,y
+x = parseFloat(document.getElementById("number3").value);
+y = parseFloat(document.getElementById("number4").value);
+document.getElementById("de").innerHTML = x / y;
+}
+</script>
+
+<button onclick="myFunction2()">除</button>
+<h5>計算結果：</h5>
+<output id ="de"></output>
+</body>
+<br>
+<body>
+   <input type="number" id="number5" value="3">
+  <input type="number" id="number6" value="5">
+  <br>
+
+</form> 
+
+
+
+
+<script>
+function myFunction3() {
+var x,y
+x = parseFloat(document.getElementById("number5").value);
+y = parseFloat(document.getElementById("number6").value);
+document.getElementById("d").innerHTML = x * y;
+}
+</script>
+
+<button onclick="myFunction3()">乘</button>
+<h5>計算結果：</h5>
+<output id ="d"></output>
+</body>
+</html>
+
